@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-12 col-md-8 col-md-offset-2">
+        <div class="card mb-3">
+            <div class="card-header">{{ account.name }}</div>
+            <div class="card-body">
+              <p>This account is {{ account.status }}</p>
+              <button class="btn btn-outline-secondary mr-2" (click)="onSetTo('active')">Set to 'active'</button>
+              <button class="btn btn-outline-secondary mr-2" (click)="onSetTo('inactive')">Set to 'inactive'</button>
+              <button class="btn btn-outline-secondary" (click)="onSetTo('unknown')">Set to 'unknown'</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  
